@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Club</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f5f5f5;
+        }
+
+        /* Header Section */
+        header {
+            background: #000;
+            color: #fff;
+            padding: 20px 40px;
+            text-align: center;
+        }
+
+        nav {
+            margin-top: 10px;
+        }
+
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #ffcc00;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: url('https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg') no-repeat center center/cover;
+            height: 70vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+        }
+
+        .hero h1 {
+            font-size: 4rem;
+            text-shadow: 2px 2px 10px black;
+        }
+
+        .hero p {
+            font-size: 1.3rem;
+        }
+
+        .btn {
+            display: inline-block;
+            background: #ffcc00;
+            color: #000;
+            padding: 12px 25px;
+            margin-top: 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .btn:hover {
+            background: #ffaa00;
+        }
+
+        /* Services Section */
+        .services {
+            padding: 40px;
+            text-align: center;
+        }
+
+        .service-box {
+            display: inline-block;
+            width: 30%;
+            margin: 15px;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        .service-box h3 {
+            color: #ff6600;
+        }
+
+        /* Footer */
+        footer {
+            background: #000;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            margin-top: 40px;
+        }
+    </style>
+
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>FITNESS CLUB</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Classes</a>
+            <a href="#">Trainers</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div>
+            <h1>Build Your Body Strong</h1>
+            <p>Your fitness journey starts here</p>
+            <a href="#" class="btn">Join Now</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services">
+        <h2>Our Services</h2>
+
+        <div class="service-box">
+            <h3>Personal Training</h3>
+            <p>Get one-on-one training with our certified fitness experts.</p>
+        </div>
+
+        <div class="service-box">
+            <h3>Gym Workouts</h3>
+            <p>Access modern gym machines and equipment.</p>
+        </div>
+
+        <div class="service-box">
+            <h3>Yoga & Meditation</h3>
+            <p>Relax your mind and soul with our yoga sessions.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Fitness Club | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
